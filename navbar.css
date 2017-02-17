@@ -9,6 +9,12 @@
     background-color: grey
 }
 
+.tiger{
+    top:300px;
+}
+.lion{
+    top:300px
+}
 #navbar a {
     color: white;
 }
