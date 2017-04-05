@@ -14,25 +14,32 @@ solve.addEventListener("click", function(){
     var answer = +num1 + +num2;
     display.innerHTML = answer;
   }
+  
+  
+  
   else if(selector.value === "-"){
-    var answe = num1 - num2; 
-    display.innerHTML = answe;
+     answer = num1 - num2; 
+    display.innerHTML = answer;
   }
    else if(selector.value === "*"){
-    var answ = num1 * num2; 
-    display.innerHTML = answ;
+   answer = num1 * num2; 
+    display.innerHTML = answer;
   }
    else if(selector.value === "/"){
-    var ans = num1 / num2; 
-    display.innerHTML = ans;
+   answer = num1 / num2; 
+    display.innerHTML = answer;
   }
+  
+  
   else if(selector.value === "powerof"){
-    var an = Math.pow(num1,num2);
-    display.innerHTML = an;
+   answer = Math.pow(num1,num2);
+    display.innerHTML = answer;
   }
-  else if(selector.value == "square root"){
-   var a = math.sqrt = num1 x num2;
-   display.innerHTML = a;
+  
+  
+  else if(selector.value === "sqrt"){
+   answer = Math.sqrt(num1);
+   display.innerHTML = answer;
   }
   
 });
